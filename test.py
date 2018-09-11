@@ -14,7 +14,7 @@ import random
 
 #Connecting Server
 #---------------------------------------
-cnx = linky.connect(host='212.235.187.48',  user='pvtest', passwd='testpv123!', db='pvtest')
+cnx = linky.connect(host='',  user='', passwd='', db='')
 cursor = cnx.cursor(buffered=True)
 
 
